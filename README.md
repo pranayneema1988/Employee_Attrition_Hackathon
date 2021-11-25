@@ -33,7 +33,7 @@ After that I have applied some data preprocessing techniques such as grouping, e
 8) I apply SMOTE technique as well becauase of the imbalanced target variable distribution
 
 
-# Deciding The Final Machine Learning Model
+# Final Machine Learning Model
 After all the data preprocessing steps, many classification models have been tried and tested after splitting the data into train and test. However, final submission code here contains only final model which has been decided as per the local accuracy and public leaderboard score.
 
 Here, I have chosen the GradientBoost model and went ahead for the final prediction. Hyperparameters has been tuned as well. F1 score was 0.81.
